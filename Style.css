@@ -1,0 +1,93 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(178, 216, 100);
+}
+
+
+.header {
+    background-color: rgb(8, 159, 8);
+    width: 100%;
+    height: 60%;
+    max-height: 900px;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.DropDown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.DropDownContent {
+    background-color: rgb(7, 190, 7);
+    position: absolute;
+    display: none;
+    width: 100px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.DropDown:hover span {
+    background-color: darkgreen;
+}
+
+.DropDownContent a:hover {
+    background-color: green;
+}
+
+.DropDown:hover .DropDownContent {
+    display: block;
+}
+.ParentDiv{
+    border: 1px solid rgb(26, 185, 66);
+    display:flex;
+    width: 600px;
+    height: 60%;
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+
+}
+
+.ParentDiv .ChildDiv{
+    border: 2px solid rgb(26, 185, 66);
+    width: 20%;
+    height: 30%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.animal{
+    width: 100%;
+    height: 100%;
+}
+
+img:hover{
+    display: block;
+}
+
+.LogOut {
+    float: right;
+    color: whitesmoke;
+    height: 100%;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: rgb(1, 157, 1);
+}
+
+.LogOut:hover {
+    background-color: darkgreen;
+}
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    min-height: 100vh;
+    background-color:rgb(100, 137, 24);
+    
+
+}
+.header {
+    background-color: rgb(8, 159, 8);
+    width: 100%;
+    height: 35px;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.DropDown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.DropDownContent {
+    background-color: rgb(7, 190, 7);
+    position: absolute;
+    display: none;
+    width: 100px;
+    z-index: 1;
+    font-weight: normal;
+    font-size: medium;
+}
+.DropDown:hover span {
+    background-color: darkgreen;
+}
+.DropDownContent a:hover {
+    background-color: green;
+}
+.DropDown:hover .DropDownContent {
+    display: block;
+}
+.parentDiv {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 1500px;
+    background: white;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+
+}
+
+.parentDiv .div1{
+    position: relative;
+    background-color:rgb(1, 157, 1);
+    color:antiquewhite;
+}
+
+.parentDiv .div2{
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.parentDiv .div1 .subtitles{
+    background-color: darkgreen;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.info{
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 20px;
+}
+
+.plant{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
+
+.rCV{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.rSubtitle{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(1, 157, 1);
+}
+.header .LogOut {
+    float: right;
+    color: whitesmoke;
+    height: 100%;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: rgb(1, 157, 1);
+}
+
+.LogOut:hover{
+    background-color:darkgreen;
+}
+
+
+
+
+
+
+
